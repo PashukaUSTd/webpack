@@ -1,5 +1,5 @@
 import Andrew from './andrew.jpg';
-import Sand from '/home/ida/Pictures/mine/pexels-marcelo-jaboo-696407.jpg'
+import Chair from '/home/ida/Pictures/mine/pexels-marcelo-jaboo-696407.jpg'
 import altText from './altText.txt'
 
 function addImage() {
@@ -9,9 +9,9 @@ function addImage() {
     img.width = 300;
     img.src = Andrew;
 
-    img2.alt = 'Песочек';
+    img2.alt = 'стул';
     img2.width = 1440;
-    img2.src = Sand;
+    img2.src = Chair;
 
     const body = document.querySelector('body');
     body.appendChild(img);
