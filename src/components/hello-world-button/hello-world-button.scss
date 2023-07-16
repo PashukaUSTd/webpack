@@ -1,0 +1,30 @@
+$font-size: 20px;
+$background-color: black;
+$background-color-hover: darkgreen;
+$color-text: yellowgreen;
+
+
+.hello-world-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: unset;
+    background-color: $background-color;
+    color: white;
+    font-size: $font-size;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+         background-color: $background-color-hover;
+    }
+}
+
+.hello-world-text {
+    color: $color-text;
+    font-size: 12px;
+}
