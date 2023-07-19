@@ -1,0 +1,13 @@
+// sizes
+$gap: 1.6rem;
+
+// other
+$default-transition: .3s ease-in-out;
+
+
+$breakpoints: (
+    mobile: 767px,
+    tablet: 1280px,
+    laptop: 1440px,
+    desktop: 9999px,
+);
